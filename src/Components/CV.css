@@ -56,10 +56,33 @@
     list-style-type: disc !important;
 }
 
+
+.info-section {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.profile-image {
+    max-width: 400px;
+    height: auto;
+    /* margin-left: 20px; */
+}
+
 @media (max-width: 768px) {
     .cv-section {
         width: 100%;
         left: 0;
+        flex-direction: column-reverse;
+    }
+
+    .info-section {
+        display: block;
+    }
+
+    .profile-image {
+        max-width: 300px;
+        height: auto;
     }
 }
 
@@ -67,11 +90,12 @@
     .cv-section {
         width: 60%;
     }
+
     .left {
         text-align: left;
         left: 0px;
     }
-    
+
     .right {
         text-align: left;
         right: -150px;
@@ -82,7 +106,7 @@
 .skill {
     padding: 1rem;
     height: 2rem;
-  }
+}
 
 .skills {
     max-width: 800px;
@@ -99,13 +123,15 @@
 }
 
 @media (min-width: 1400px) {
-    .skills { grid-template-columns: repeat(3, 1fr); }
-  }
+    .skills {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 
-  .bullets-container {
+.bullets-container {
     display: inline-flex;
     left: 120px;
     margin-top: 6px;
     position: absolute;
-  }
+}

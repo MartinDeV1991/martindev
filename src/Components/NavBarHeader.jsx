@@ -7,7 +7,7 @@ const NavbarHeader = () => {
             <div style={{ display: 'flex', alignItems: 'center' }}>
                 <nav style={{ display: 'flex' }}>
                     <a href="/" style={{ textDecoration: 'none', color: 'white', padding: '20px', borderRight: '1px solid white' }}>Home</a>
-                    <a href="https://www.martindev.nl" style={{ textDecoration: 'none', color: 'white', padding: '20px', borderRight: '1px solid white' }}>CV</a>
+                    <a href="https://martins-online-cv.netlify.app" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'white', padding: '20px', borderRight: '1px solid white' }}>CV</a>
                     <a href="/projects" style={{ textDecoration: 'none', color: 'white', padding: '20px' }}>Projecten</a>
                 </nav>
             </div>

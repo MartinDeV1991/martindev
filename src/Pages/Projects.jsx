@@ -1,5 +1,6 @@
 
-import backgroundImage from '../Components/background-image1.jpg';
+// import backgroundImage from '../Components/background-image1.jpg';
+// import backgroundVideo from '../Components/backgroundvideo.mov';
 import './projects.css';
 
 const Projects = () => {
@@ -37,9 +38,18 @@ const Projects = () => {
     return (
         <div className="projects-container">
 
-            <div style={{ position: 'fixed', opacity: 0.15, backgroundAttachment: 'fixed', zIndex: -1  }}>
-                <img src={backgroundImage} style={{ maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto' }} alt=''></img>
+            <div style={{ position: 'fixed', opacity: 0.35, backgroundAttachment: 'fixed', zIndex: -1 }}>
+                {/* <img src={backgroundImage} style={{ maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto' }} alt=''></img> */}
+                {/* <video
+                    autoPlay
+                    loop
+                    muted
+                    style={{ objectFit: 'cover', transform: 'translateY(-25%)'  }}
+                >
+                    <source src={backgroundVideo} type="video/mp4" />
+                </video> */}
             </div>
+
             <a className='link-to-projects' href='/projectSite'>
                 Klik hier om mijn projecten te bekijken!
             </a>
@@ -69,7 +79,7 @@ const Projects = () => {
                 <div>{hosting}</div>
             </div>
 
-            <a className='link-to-projects' href='https://martin-website.netlify.app' target='_blank' rel='noopener noreferrer'>
+            <a className='link-to-projects' href='/projectSite'>
                 Klik hier om mijn projecten te bekijken!
             </a>
         </div>

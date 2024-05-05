@@ -6,12 +6,12 @@ const CV = () => {
     const [experienceItems, setExperienceItems] = useState([
         { title: "Software development trainee", company: "Youngcapital Next", date: "2023 - 2024", description: ["Ontwikkelen van technische skills voor het maken van fullstack applicaties."] },
         { title: "Sabbatical", date: "2020 - 2022", description: ["Skileraar, reizen, studie psychologie, ontwikkelen software development skills."] },
-        { title: "Senior data science consultant", company: "RiskQuest", date: "2017 - 2019", description: ["Leaseplanbank: Validatie van de credit risk modellen zodat deze voldoen aan wet- en regelgeving.", "Rabobank: Implementeren en testen van modellen en de maandelijkse risicocijfers berekenen en rapporteren.", "Rabobank: Data verzamelen en verwerken voor de credit risk modellen."] },
+        { title: "Senior data science consultant", company: "RiskQuest", date: "2017 - 2019", description: ["Rabobank: Implementeren en testen van modellen en de maandelijkse risicocijfers berekenen en rapporteren.", "Leaseplanbank: Validatie van de credit risk modellen zodat deze voldoen aan wet- en regelgeving.", "Rabobank: Data verzamelen en verwerken voor de credit risk modellen."] },
         { title: "Risk manager", company: "De Nederlandsche Bank", date: "2014 - 2017", description: ["Ontwikkeling en validatie van risico modellen. ", "Kwartaalrapportages voor management maken om inzicht te geven in het krediet- en marktrisico van de bank."] },
     ]);
 
     const educationItems = [
-        { degree: "Bachelor psychologie (parttime)", school: "Open Universiteit", date: "2020 - 2024" },
+        { degree: "Bachelor psychologie (parttime)", school: "Open Universiteit", date: "2020 - heden" },
         { degree: "Master physics and science based business", school: "Universiteit Leiden", date: "2012 - 2014" },
         { degree: "Bachelor natuurkunde", school: "Universiteit Leiden", date: "2009 - 2012" },
         { degree: "Bachelor sterrenkunde", school: "Universiteit Leiden", date: "2009 - 2012" },
@@ -26,7 +26,7 @@ const CV = () => {
         { name: "Node.js", image: "https://img.icons8.com/color/48/000000/nodejs.png" },
         { name: "Python", image: "https://img.icons8.com/color/48/000000/python--v1.png" },
         { name: "Flask", image: "https://img.icons8.com/color/48/000000/flask.png" },
-        { name: "SQL", image: "https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png"},
+        { name: "SQL", image: "https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png" },
         { name: "MongoDB", image: "https://img.icons8.com/color/48/000000/mongodb.png" },
         { name: "Git", image: "https://img.icons8.com/color/48/000000/git.png" },
         { name: "Azure", image: "https://img.icons8.com/color/48/000000/azure-1.png" }
@@ -124,7 +124,7 @@ const CV = () => {
                                     <div>
                                         <ul className="disc">
                                             {item.description.map((description, index) => (
-                                                <li key={index}>{description}</li>
+                                                <li key={index} style={{ color: 'rgb(188, 183, 183, 0.7)' }}>{description}</li>
                                             ))}
                                         </ul>
                                     </div>
@@ -160,10 +160,10 @@ const CV = () => {
                             <span>{language.name}: </span>
                             <div className="bullets-container">
                                 {[...Array(language.proficiency)].map((_, i) => (
-                                    <i key={i} className="fas fa-circle" style={{ color: 'black' }}></i>
+                                    <i key={i} className="fas fa-circle" style={{ color: 'rgb(200,200,200,1)' }}></i>
                                 ))}
                                 {[...Array(5 - language.proficiency)].map((_, i) => (
-                                    <i key={i + language.proficiency} className="fas fa-circle" style={{ color: 'gray' }}></i>
+                                    <i key={i + language.proficiency} className="fas fa-circle" style={{ color: 'rgb(200,200,200,0.2)' }}></i>
                                 ))}
                             </div>
                         </li>
@@ -180,12 +180,12 @@ const CV = () => {
 
                 <ul>
                     {certificates.map((item, itemIndex) => (
-                        <li className = "clickable" key={itemIndex} onClick={() => toggleItem(itemIndex, "certificates")}>
+                        <li className="clickable" key={itemIndex} onClick={() => toggleItem(itemIndex, "certificates")}>
                             <span style={{ fontWeight: '900', fontSize: '22px' }}>{item.title}</span>
                             <br />
                             <div>{item.organisation}</div>
                             {item.expanded &&
-                                <div style={{ marginLeft: '20px', marginTop: '10px', color: 'rgb(255, 255, 255, 0.7)' }}>{item.description}</div>
+                                <div style={{ marginLeft: '20px', marginTop: '10px', color: 'rgb(188, 183, 183, 0.7)' }}>{item.description}</div>
                             }
                         </li>
                     ))}

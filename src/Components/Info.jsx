@@ -17,7 +17,7 @@ const Info = () => {
     ]
     return (
         <div className='cv-container' >
-            <div style={{ display: 'flex', alignItems: 'center', textAlign: 'left' }}>
+            <div className='info-section'>
                 <div>
                     <div style={{ fontWeight: '900', fontSize: '32px', margin: '0px' }}>{fullName}</div>
                     <div style={{ fontWeight: '700', fontSize: '32px', marginBottom: '50px' }}>{jobTitle}</div>
@@ -30,7 +30,7 @@ const Info = () => {
                         ))}
                     </div>
                 </div>
-                <img src={martinImage} alt="Martin" style={{ width: '400px', height: 'auto', marginLeft: '20px' }} />
+                <img className='profile-image' src={martinImage} alt="Martin" style={{  }} />
             </div>
         </div>
     )
