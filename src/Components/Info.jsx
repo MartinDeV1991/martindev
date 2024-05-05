@@ -1,16 +1,14 @@
 
 import martinImage from './martin.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Info = () => {
 
-
     const fullName = "Martin de Valois";
     const jobTitle = "Software developer";
     const linkedIn = "linkedin.com/in/martindevalois";
-    const address = "Leiden";
     const email = "martin_de_v@hotmail.com"
 
     const info = [

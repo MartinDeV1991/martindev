@@ -28,7 +28,7 @@ const Projects = () => {
     `;
 
     const hosting = `
-    Een deel van mijn projecten zijn online gehost zodat ze in de browser bekeken kunnen worden.Daarnaast is van elk project de code op Github te vinden.
+    Een deel van mijn projecten zijn online gehost zodat ze in de browser bekeken kunnen worden. Daarnaast is van elk project de code op Github te vinden.
     Voor de fullstack projecten in mijn portfolio zijn de frontend, backend en de database online gebracht via het Azure - cloudplatform.
     Omdat voor de backends de free tier van Azure is gebruikt kan het soms een minuutje duren voordat de applicatie werkt.Om het build - en deploymentproces van de applicatie te automatiseren heb ik gebruikgemaakt van Github Actions.
     De Python games zijn na conversie met Pygbag geüpload naar itch.io.
@@ -38,9 +38,9 @@ const Projects = () => {
         <div className="projects-container">
 
             <div style={{ position: 'fixed', opacity: 0.15, backgroundAttachment: 'fixed', zIndex: -1  }}>
-                <img src={backgroundImage} style={{ maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto' }}></img>
+                <img src={backgroundImage} style={{ maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto' }} alt=''></img>
             </div>
-            <a className='link-to-projects' href='https://martin-website.netlify.app' target='_blank' rel='noopener noreferrer'>
+            <a className='link-to-projects' href='/projectSite'>
                 Klik hier om mijn projecten te bekijken!
             </a>
 

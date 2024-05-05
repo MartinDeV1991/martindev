@@ -3,7 +3,7 @@ import Info from "../Components/Info";
 const CVpage = () => {
 
     return (
-        <div>
+        <div style={{ marginTop: '150px' }}>
             <Info />
             <CV />
         </div>
