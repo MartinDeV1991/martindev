@@ -63,6 +63,11 @@
     text-align: left;
 }
 
+.intro-section {
+    width: 500px;
+}
+
+
 .profile-image {
     max-width: 400px;
     height: auto;
@@ -84,6 +89,12 @@
         max-width: 300px;
         height: auto;
     }
+
+    .intro-section {
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media (max-width: 1200px) {

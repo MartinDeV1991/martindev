@@ -6,8 +6,8 @@ import './projects.css';
 const Projects = () => {
 
     const projects = `
-    Welkom op mijn website! Hier wil ik graag een inkijkje geven in enkele van mijn projecten.
-    Ik heb een diverse reeks projecten gerealiseerd, variërend van games tot fullstack webapplicaties.
+    Hier wil ik graag meer informatie geven over mijn projecten.
+    Ik heb een diverse reeks projecten gedaan, variërend van games tot fullstack webapplicaties.
     Klik op de link hierboven om direct naar de projecten te gaan.
     Daarnaast is hieronder meer informatie te vinden over mijn projecten.
     `;

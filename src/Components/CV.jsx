@@ -95,7 +95,7 @@ const CV = () => {
             <div className={`cv-section ${sectionOrder.find(section => section.name === 'skillsSection').order % 2 === 0 ? 'right' : 'left'}`}
                 style={{ order: sectionOrder.find(section => section.name === 'skillsSection').order }}>
 
-                <h2 style={{ fontWeight: '900', fontSize: '32px' }}>Vaardigheden</h2>
+                <h2 style={{ fontWeight: '900', fontSize: '32px' }}>Tech stack</h2>
                 <div className="skills">
                     {skillsItems.map((item, itemIndex) => (
                         <div className="skill" key={itemIndex}>
