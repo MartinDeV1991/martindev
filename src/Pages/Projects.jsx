@@ -13,7 +13,7 @@ const Projects = () => {
     `;
 
     const jsGames = `
-    Als liefhebber van game development heb ik verschillende games ontwikkeld met behulp van JavaScript en html.
+    Ik heb verschillende games ontwikkeld met behulp van JavaScript en html. Deze games maken gebruik van html canvas om de graphics op het scherm te laten zien en afhankelijk van de gebruikersinteractie het scherm te updaten.
     `;
 
     const pythonGames = `
