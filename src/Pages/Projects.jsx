@@ -23,15 +23,15 @@ const Projects = () => {
     `;
 
     const fullstack = `
-    Ik heb meegewerkt aan diverse fullstack projecten waarbij ik gebruikmaakte van een combinatie van SQL voor databasebeheer, Java/Springboot voor de backend-logica en JavaScript/React voor de frontend-ontwikkeling.
+    Ik heb gewerkt aan diverse fullstack projecten waarbij ik gebruikmaakte van een combinatie van SQL voor databasebeheer, Java/Springboot voor de backend-logica en JavaScript/React voor de frontend-ontwikkeling.
     Ik heb ook een project gemaakt waarbij ik gebruikmaak van Node.js voor de backend, JavaScript voor zowel de frontend als de backend, en MongoDB als de NoSQL-database.
     Deze projecten hebben mij waardevolle ervaring opgeleverd in het ontwerpen, bouwen en implementeren van complexe webapplicaties.
     `;
 
     const hosting = `
     Een deel van mijn projecten zijn online gehost zodat ze in de browser bekeken kunnen worden. Daarnaast is van elk project de code op Github te vinden.
-    Voor de fullstack projecten in mijn portfolio zijn de frontend, backend en de database online gebracht via het Azure - cloudplatform.
-    Omdat voor de backends de free tier van Azure is gebruikt kan het soms een minuutje duren voordat de applicatie werkt.Om het build - en deploymentproces van de applicatie te automatiseren heb ik gebruikgemaakt van Github Actions.
+    Voor de fullstack projecten in mijn portfolio zijn de frontend, backend en de database online gebracht via het Azure-cloudplatform.
+    Omdat voor de backends gebruikmaken van de free tier van Azure kan het soms een minuutje duren voordat de applicatie werkt en de onderliggende data opgehaald is uit de database. Om het build - en deploymentproces van de applicatie te automatiseren heb ik gebruikgemaakt van Github Actions.
     De Python games zijn na conversie met Pygbag geüpload naar itch.io.
     De overige projecten zijn gehost op Netlify.
 `;
