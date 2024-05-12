@@ -4,14 +4,16 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 const CV = () => {
     const [experienceItems, setExperienceItems] = useState([
-        { title: "Software development trainee", company: "Youngcapital Next", date: "2023 - 2024", description: ["Ontwikkelen van technische skills voor het maken van fullstack applicaties."] },
-        { title: "Sabbatical", date: "2020 - 2022", description: ["Skileraar, reizen, studie psychologie, ontwikkelen software development skills."] },
-        { title: "Senior data science consultant", company: "RiskQuest", date: "2017 - 2019", description: ["Rabobank: Implementeren en testen van modellen en de maandelijkse risicocijfers berekenen en rapporteren.", "Leaseplanbank: Validatie van de credit risk modellen zodat deze voldoen aan wet- en regelgeving.", "Rabobank: Data verzamelen en verwerken voor de credit risk modellen."] },
-        { title: "Risk manager", company: "De Nederlandsche Bank", date: "2014 - 2017", description: ["Ontwikkeling en validatie van risico modellen. ", "Kwartaalrapportages voor management maken om inzicht te geven in het krediet- en marktrisico van de bank."] },
+        { title: "Software Development Trainee", company: "Youngcapital Next", date: "2023 - 2024", description: ["Ontwikkelen van technische skills voor het maken van fullstack applicaties met focus op Java voor backend en React voor frontend."] },
+        // { title: "Sabbatical", date: "2020 - 2022", description: ["Skileraar, reizen, studie psychologie, ontwikkelen software development skills."] },
+        { title: "Skileraar", company: "Skischule Serfaus", date: "2019 - 2020", description: ["Skiles geven aan groepen van verschillende niveau's en leeftijden."] },
+        { title: "Senior Data Science Consultant", company: "RiskQuest", date: "2017 - 2019", description: ["Rabobank: Ontwikkelen en testen van applicaties om risicocijfers te berekenen.", "Leaseplanbank: Validatie van credit risk modellen en testen van code zodat deze voldoen aan wet- en regelgeving", "Rabobank: Data verzamelen en verwerken voor credit risk modellen."] },
+        { title: "Risk Manager", company: "De Nederlandsche Bank", date: "2014 - 2017", description: ["Ontwikkelen van applicaties voor de berekening van risicocijfers. ", "Kwartaalrapportages maken om inzicht te geven in het krediet- en marktrisico van de bank."] },
     ]);
 
     const educationItems = [
-        { degree: "Bachelor psychologie (parttime)", school: "Open Universiteit", date: "2020 - heden" },
+        // { degree: "Bachelor psychologie (parttime)", school: "Open Universiteit", date: "2020 - heden" },
+        { degree: "Propedeuse Psychologie (deeltijd)", school: "Open Universiteit", date: "2021 - 2024" },
         { degree: "Master physics and science based business", school: "Universiteit Leiden", date: "2012 - 2014" },
         { degree: "Bachelor natuurkunde", school: "Universiteit Leiden", date: "2009 - 2012" },
         { degree: "Bachelor sterrenkunde", school: "Universiteit Leiden", date: "2009 - 2012" },

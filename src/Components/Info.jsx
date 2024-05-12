@@ -1,5 +1,5 @@
 
-import martinImage from './martin2.jpg';
+import martinImage from './martin.jpg';
 
 const Info = () => {
 
