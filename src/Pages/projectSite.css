@@ -377,4 +377,9 @@
    .main-title h2 .bg-text {
      font-size: 4rem;
    }
+   .icons {
+    max-width: 10px;
+    display: flex;
+    flex-direction: column;
+   }
  }
