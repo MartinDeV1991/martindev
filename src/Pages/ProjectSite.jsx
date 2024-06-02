@@ -62,18 +62,18 @@ const ProjectSite = () => {
     };
 
     return (
-        <main class="main-content">
+        <main className="main-content">
 
             {activeBtn === 'js-games' && (
 
-                <section class="section sec3" id="js-games">
-                    <div class="main-title">
-                        <h2>Javascript <span>Games</span><span class="bg-text">Javascript</span></h2>
+                <section className="section sec3" id="js-games">
+                    <div className="main-title">
+                        <h2>Javascript <span>Games</span><span className="bg-text">Javascript</span></h2>
                     </div>
-                    <p class="port-text">
+                    <p className="port-text">
 
                     </p>
-                    <div class="portfolios">
+                    <div className="portfolios">
 
                         < Project
                             image={images.pacman}
@@ -92,7 +92,7 @@ const ProjectSite = () => {
                             ]}
                         />
                         <Project
-                            image={images.spaceInvaders}
+                            image={images.spaceInvaders2}
                             hrefs={[
                                 { url: 'https://github.com/MartinDeV1991/space-invaders2', icon: 'fab fa-github' },
                                 { url: 'https://martin-spaceinvaders2.netlify.app', icon: 'fa-solid fa-play' }
@@ -172,7 +172,7 @@ const ProjectSite = () => {
                             name="RPG"
                         />
                         <Project
-                            image={images.spaceInvaders2}
+                            image={images.spaceInvaders}
                             hrefs={[
                                 { url: 'https://github.com/MartinDeV1991/space-invaders', icon: 'fab fa-github' },
                                 { url: 'https://martin-spaceinvaders.netlify.app', icon: 'fa-solid fa-play' }
@@ -185,14 +185,14 @@ const ProjectSite = () => {
 
             {activeBtn === 'python-code' && (
 
-                < section class="section sec4" id="python-code">
-                    <div class="main-title">
-                        <h2>Python <span>Code</span><span class="bg-text">Python</span></h2>
+                < section className="section sec4" id="python-code">
+                    <div className="main-title">
+                        <h2>Python <span>Code</span><span className="bg-text">Python</span></h2>
                     </div>
-                    <p class="port-text">
+                    <p className="port-text">
 
                     </p>
-                    <div class="portfolios">
+                    <div className="portfolios">
                         <Project
                             image={images.sudoku}
                             hrefs={[
@@ -238,14 +238,14 @@ const ProjectSite = () => {
             {
                 activeBtn === 'fullstack' && (
 
-                    < section class="section sec5" id="fullstack" >
-                        <div class="main-title">
-                            <h2>Full stack <span>projects</span><span class="bg-text">Full stack</span></h2>
+                    < section className="section sec5" id="fullstack" >
+                        <div className="main-title">
+                            <h2>Full stack <span>projects</span><span className="bg-text">Full stack</span></h2>
                         </div>
-                        <p class="port-text">
+                        <p className="port-text">
 
                         </p>
-                        <div class="portfolios">
+                        <div className="portfolios">
                             <Project
                                 image={images.marktplaats}
                                 hrefs={[
