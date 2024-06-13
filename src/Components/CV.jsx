@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 const CV = () => {
     const [experienceItems, setExperienceItems] = useState([
-        { title: "Software Development Trainee", company: "Youngcapital Next", date: "2023 - 2024", description: ["Ontwikkelen van technische skills voor het maken van fullstack applicaties met focus op Java voor backend en React voor frontend."] },
+        { title: "Software Development Trainee", company: "Youngcapital Next", date: "2023 - 2024", description: ["Ontwikkelen van fullstack applicaties met focus op Java voor backend en React voor frontend."] },
         // { title: "Sabbatical", date: "2020 - 2022", description: ["Skileraar, reizen, studie psychologie, ontwikkelen software development skills."] },
         { title: "Skileraar", company: "Skischule Serfaus", date: "2019 - 2020", description: ["Skiles geven aan groepen van verschillende niveau's en leeftijden."] },
         { title: "Senior Data Science Consultant", company: "RiskQuest", date: "2017 - 2019", description: ["Rabobank: Ontwikkelen en testen van applicaties om risicocijfers te berekenen.", "Leaseplanbank: Validatie van credit risk modellen en testen van code zodat deze voldoen aan wet- en regelgeving", "Rabobank: Data verzamelen en verwerken voor credit risk modellen."] },
