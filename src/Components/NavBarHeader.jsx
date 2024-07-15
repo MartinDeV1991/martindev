@@ -19,7 +19,8 @@ const NavbarHeader = () => {
             <div style={{ display: 'flex', alignItems: 'center', fontWeight: '900' }}>
                 <nav style={{ display: 'flex' }}>
                     <a href="/" style={{ textDecoration: 'none', color: 'white', padding: '20px', borderRight: '1px solid white' }}>Home</a>
-                    <a href="/projects" style={{ textDecoration: 'none', color: 'white', padding: '20px' }}>Projecten</a>
+                    <a href="/projectsite" style={{ textDecoration: 'none', color: 'white', padding: '20px', borderRight: '1px solid white' }}>Projecten</a>
+                    <a href="/projects" style={{ textDecoration: 'none', color: 'white', padding: '20px' }}>Project info</a>
                 </nav>
             </div>
             <div className="contact-info" style={{ position: 'absolute', right: '10px', textAlign: 'left' }}>
