@@ -1,6 +1,6 @@
 
 import './App.css';
-import Projects from './Pages/Projects';
+// import Projects from './Pages/Projects';
 import CVpage from './Pages/CVpage';
 import ProjectSite from './Pages/ProjectSite';
 
