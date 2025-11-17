@@ -17,7 +17,7 @@ function App() {
       <div style={{ marginTop: '100px' }}>
         <Routes>
           <Route path="/" element={<CVpage />} />
-          <Route path="/projects" element={<Projects />} />
+          {/* <Route path="/projects" element={<Projects />} /> */}
           <Route path="/projectsite" element={<ProjectSite />} />
         </Routes>
       </div>

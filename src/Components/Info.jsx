@@ -7,10 +7,11 @@ const Info = () => {
     const jobTitle = "Software developer";
 
 
-    const projects = `
-    Welkom op mijn website! Op deze website kun je informatie vinden over mijn werkervaring, opleidingen en technische vaardigheden.
-    Daarnaast zijn hier ook enkelen van mijn projecten te zien.
-    `;
+    const projects = ''
+    // `
+    // Welkom op mijn website! Op deze website kun je informatie vinden over mijn werkervaring, opleidingen en technische vaardigheden.
+    // Daarnaast zijn hier ook enkelen van mijn projecten te zien.
+    // `;
 
     return (
         <div className='cv-container' >
